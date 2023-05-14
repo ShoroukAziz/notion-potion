@@ -1,5 +1,5 @@
 {
-  "name": "notion-telegram-bot-js",
+  "name": "notion-potion",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShoroukAziz/notion-telegram-bot-js.git"
+    "url": "git+https://github.com/ShoroukAziz/notion-potion.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShoroukAziz/notion-telegram-bot-js/issues"
+    "url": "https://github.com/ShoroukAziz/notion-potion/issues"
   },
-  "homepage": "https://github.com/ShoroukAziz/notion-telegram-bot-js#readme",
+  "homepage": "https://github.com/ShoroukAziz/notion-potion#readme",
   "dependencies": {
     "@notionhq/client": "^2.2.3",
     "axios": "^1.3.4",
