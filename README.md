@@ -16,6 +16,10 @@ The idea behind this bot is heavily inspired by [David Allen's book Getting Thin
 
 ## 🔮How it Works
 
+https://github.com/ShoroukAziz/notion-potion/assets/27028706/8d2933bd-9206-4f2c-9e3f-438ec0d29ace
+
+
+
 ### 💬 Sending text messages
 
 - You send a message to your bot. It get's automatically saved to your Notion Inbox database
