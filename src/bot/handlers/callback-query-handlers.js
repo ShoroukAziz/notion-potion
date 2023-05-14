@@ -46,7 +46,9 @@ const handleDone = function () {
   logInput(operations.done.logInputMessage);
 };
 
-const handleBack = function () {};
+const handleBack = function (chatId) {
+  handleOperationSuccess(chatId, operations.back);
+};
 
 // The following  handlers require changing the state
 // because the user will be sending a follow up message
