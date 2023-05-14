@@ -26,6 +26,7 @@ const sendSuccessMessage = async function (
     parse_mode: 'Markdown',
     reply_markup: getOperationsKeyboard(),
   });
+  STATE.current = STATE.selecting;
   STATE.lastKeyboardMessage = lastSentKeyboard;
 };
 
@@ -47,7 +48,6 @@ const handleOperationSuccess = async function (
   const notionURL = lastMessage.notionURL;
   const replyMessage = parse(operation.successMessage, pageName, notionURL);
   await sendSuccessMessage(chatId, replyMessage, useOperationsKeyboard);
-  STATE.current = STATE.selecting;
   logSuccess(operation.logSuccessMessage, pageName, notionURL);
 };
 
