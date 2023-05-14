@@ -28,6 +28,7 @@ const handleOutbox = async function (chatId) {
 };
 
 const handleDelete = async function (chatId) {
+  STATE.current = STATE.waiting;
   const operation = operations.delete;
   STATE.current = STATE.waiting;
   logInput(operation.logInputMessage);
